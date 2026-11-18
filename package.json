@@ -2,7 +2,7 @@
   "name": "foodexpress-capstone",
   "version": "1.0.0",
   "private": true,
-  "description": "Responsive full-stack food ordering application for Practical 12",
+  "description": "Responsive full-stack food ordering application",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

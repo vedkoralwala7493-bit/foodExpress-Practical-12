@@ -215,5 +215,3 @@ async function start() {
     }
 }
 
-start();
-

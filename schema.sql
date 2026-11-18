@@ -61,4 +61,3 @@ SELECT * FROM (
     UNION ALL SELECT 'Crispy Garden Salad', 'Bowls', 'Seasonal greens, cucumber, tomato, and house vinaigrette.', 10.50, 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80', FALSE
     UNION ALL SELECT 'Margherita Pizza', 'Pizza', 'Tomato, fresh mozzarella, basil, and olive oil.', 14.00, 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80', FALSE
 ) AS seed
-WHERE NOT EXISTS (SELECT 1 FROM food_items LIMIT 1);

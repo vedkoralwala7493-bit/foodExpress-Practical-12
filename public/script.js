@@ -275,4 +275,3 @@ document.getElementById("checkoutForm").addEventListener("submit", async event =
 
 renderCart();
 loadCategories();
-loadMenu();

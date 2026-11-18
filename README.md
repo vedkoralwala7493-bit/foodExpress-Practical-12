@@ -109,3 +109,16 @@ curl -X POST http://localhost:3000/api/orders \
 ```
 
 `GET /api/menu` should return an `items` JSON array. A valid order request should return HTTP 201 with an order number and server-calculated total. Invalid input should return HTTP 400 with a helpful message.
+# FoodExpress
+
+Responsive food ordering site using HTML, CSS, Bootstrap, browser JavaScript, Node.js, Express, and MySQL.
+
+## Run it
+
+1. Install Node.js and MySQL.
+2. Create the database and sample menu by running `schema.sql` in MySQL.
+3. Copy `.env.example` to `.env` and set your MySQL credentials.
+4. From this folder run `npm install` and then `npm start`.
+5. Open `http://localhost:3000`.
+
+The browser page, script selectors, checkout fields, API request fields, and server routes are aligned. Prices in the provided seed data are displayed in USD.
